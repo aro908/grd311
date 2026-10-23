@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframing</title>
+    <style>
+        .hero {
+            height: 100vh;
+            background-image: url("images/ford-hero.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: left;
+        }
+        li { 
+            display: inline-block;
+            display: absolute;
+            /* margin-left: 100px; */
+            /* padding-top: 40px; */
+            margin-right:60px;
+           font-family: Arial bold, Helvetica, sans-serif;
+        }
+        /* img {
+            top: 60px;
+            left: 100px;
+            position: absolute;
+        } */
+
+        a{
+            color:white;
+            text-decoration: none;
+        }
+
+        .demo{
+             width:500px; 
+             min-height:200px; 
+             background-color: #ccc; 
+             margin: 20px auto;
+             position: absolute;
+             top:500px;
+             }
+
+             .model-year{
+                font-size:20px;
+             }
+
+    </style>
+</head>
+<body>
+    <main> 
+<!-- demo box -->
+
+<div class="demo">
+<div class="hero-text">
+               
+                 <h2 class="model-year"> 2026</h2>
+                    <h2>ESCAPE</h2>
+                    STARTING AT $30,350
+                    DETAILS
+                </ul>
+            </div>
+
+
+</div>
+
+        <div class="hero">
+          
+          
+            <nav>
+                
+                <ul>
+                    <li><img src="images/ford-logo.png" alt="Ford Logo"></li>
+                    <li><a href="#">VEHICLES</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">SUPPORT & SERVICE</a></li>
+                    <li><a href="#">FORD PRO SOLUTION</a></li>
+
+                    </ul>   
+            </nav>
+                
+           <div class="hero-text">
+            <h2 class="model-year"> 2026</h2>
+                    <h2>ESCAPE</h2>
+                    STARTING AT $30,350
+                    DETAILS
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
